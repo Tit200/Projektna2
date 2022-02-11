@@ -67,3 +67,10 @@ with open('csv_file_3.csv', 'w', encoding='utf-8', newline='') as f:
     writer.writerow(header)
     for tuple in vzorci_za_knjigo.seznam_tuplov:
         writer.writerow(tuple)
+    
+with open('csv_file_4.csv', 'w', encoding='utf-8', newline='') as f:
+    writer = csv.writer(f)
+    header = ['Crka', 'Procent crke v knjigi'] 
+    writer.writerow(header)
+    for tuple in vzorci_za_knjigo.seznam_tuplov_2:
+        writer.writerow(tuple)

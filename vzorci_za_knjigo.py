@@ -508,6 +508,10 @@ seznam_tuplov = []
 for key in sorted_frekvenca_crk:
     seznam_tuplov.append((key, sorted_frekvenca_crk[key]))
 
+seznam_tuplov_2 = []
+for key in  sorted_delez_crk:
+    seznam_tuplov_2.append((key,  sorted_delez_crk[key]))
+
 
 #________________________________________
 #REGULAR ZA NASLOV POGLAVJA: 1, 2, 33
